@@ -1,0 +1,298 @@
+*,:after,:before 
+{
+	box-sizing: border-box;
+}
+.navbar 
+{
+	margin: 0 64px;
+	min-height: 160px;
+}
+.justify-content-start 
+{
+	align-items: center;
+}
+.justify-content-end 
+{
+	align-items: center;
+}
+.my_invisible 
+{
+	color:#355876;
+}
+.btn-outline-light 
+{
+	border-width: 1px;
+	border-radius: 4px;
+	border-color: #355876;	
+}
+.btn-outline-light:hover
+{
+	border-color: #97a2ae;
+	background-color: transparent;
+	color: #97a2ae;
+}
+.outer-header 
+{
+	background-color: #355876;
+	min-height: 160px;
+	/* align-items: center; */
+}
+.d-move 
+{
+	margin-right: 24px;
+}
+
+.hidden-button 
+{
+	text-decoration: none;
+	display: inline-block;
+	box-sizing: border-box;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 4px;
+	border-color: rgba(53, 88, 118, 1);
+	fill: rgba(53, 88, 118, 1);
+	background: 0;
+	padding: 7px 16px 9px;
+	color: rgba(53, 88, 118, 1);
+	line-height: 20px;
+	font-size: 14px;
+}
+.hidden-button > a 
+{
+	color: rgba(53, 88, 118, 1);
+}
+
+.hidden-button:hover 
+{
+	border-color: #97a2ae;
+	background-color: transparent;
+	color: #97a2ae;
+}
+.container 
+{
+	padding: 16px;
+	/* display: flex; */
+}
+.hidden-button:hover > a 
+{
+	color: #97a2ae;
+	text-decoration: unset;
+}
+
+.hidden-link > a
+{
+	color: rgba(53, 88, 118, 1);
+}
+.hidden-link > a:hover
+{
+	color: #97a2ae;
+}
+
+.p-2 
+{
+	color: rgba(197, 210, 225, 1);
+} 
+
+.p-2 > a:hover 
+{
+	color: white;
+}
+
+.alert-secondary > a 
+{
+	text-decoration: underline;
+	color: inherit;
+	fill: inherit;
+}
+.alert-secondary > a:hover 
+{
+	color: inherit;
+}
+
+.link-name-style > a 
+{
+	color: #355876;
+}
+
+.link-name-style > a:hover 
+{
+	color: #355876;
+	text-decoration: unset;
+}
+.special-font-style 
+{
+	font-family: medium-content-sans-serif-font, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+button 
+{
+    border-radius: 0;
+    border: none;
+    background: inherit;
+}
+a:hover 
+{
+	color: white;
+  }
+.invisible 
+{
+	visibility: hidden !important;
+  }
+.r 
+{
+	fill: white;
+}
+.cb
+{
+	height: 25px;
+}
+
+.blockquote 
+{ 	
+	border-left:solid black; 
+	padding-left: 23px;
+	margin-left: -20px;
+	font-style: italic;
+	font-size: 18px;
+	line-height: 32px;
+	display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+} 
+
+li 
+{
+	display: list-item;
+	/* letter-spacing: -0.003em; */
+	margin-bottom: -0.46em;
+	font-size: 21px;
+	margin-top: 1.00em;
+	line-height: 32px;
+	font-size: 21px;
+	font-weight: 400;
+	font-family: charter, Georgia, Cambria, "Times New Roman", Times, serif;
+	/* margin-left: 30px; */
+}
+
+.li-link-style 
+{
+	font-size: 21px;
+	list-style-type: disc;
+	text-decoration: underline;
+	color: black;
+}
+
+li > a:hover 
+{
+	color: black;
+	text-decoration: underline;
+}
+
+.reference-hover > a 
+{
+	font-size: 21px;
+	list-style-type: disc;
+	text-decoration: underline;
+	color: black;
+}
+.reference-hover a:hover 
+{
+	color: black;
+	text-decoration: underline;
+}
+.font-weight-bold 
+{
+	font-weight: 400;
+}
+
+
+mark 
+{
+	cursor: pointer;
+}
+
+.center 
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+  }
+
+.transformation:focus 
+{
+	transform: scale(1.01);
+	z-index: auto;
+	cursor: zoom-in;
+	position: relative;
+	width: 200%;
+	transition: transform 300ms cubic-bezier(0.2, 0, 0.2, 1);
+}
+
+:focus 
+{
+    outline: -webkit-focus-ring-color auto 1px;
+}
+
+.sign-up-container 
+{
+	background-color: rgba(250, 250, 250, 1);
+	margin-bottom: 25px;
+	margin-top: 8px;
+	padding: 32px 32px 26px 32px;
+	border-top: 3px solid rgba(102, 138, 170, 1);
+}
+
+.sign-up-link > a
+{
+	color: black;
+	text-decoration: underline;
+}
+
+.sign-up-link > a:hover
+{
+	color: black;
+	text-decoration: underline;
+}
+
+.email-style
+{
+	border: none;
+	border-bottom: 1px solid rgba(168, 168, 168, 1);
+	background: transparent;
+	width: 375px;
+	color: rgba(117, 117, 117, 1);
+}
+.small-text-under
+{
+	font-size: 11px;
+	line-height: 16px;
+}
+
+#navlist li
+{
+	display: inline;
+	list-style-type: none;
+	/* padding-right: 20px; */	
+}
+#navlist
+{
+	padding-inline-start: 0px;
+}
+.decor-list
+{
+	background: rgba(242, 242, 242, 1);
+	padding: 5px 10px;
+	border-radius: 3px;
+	line-height: 22px;
+	font-size: 13px;
+	padding: none;
+}
+.decor-list > a{
+	color: rgba(117, 117, 117, 1) !important;
+}
+.decor-list > a:hover{
+	color: rgba(117, 117, 117, 1) !important;
+	text-decoration: unset;
+}
