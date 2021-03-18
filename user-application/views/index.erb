@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Users index page</title>
+        <style>
+            table, td, th {  
+            border: 1px solid #ddd;
+            text-align: left;
+            }
+
+            table {
+            border-collapse: collapse;
+            width: 50%;
+            }
+
+            th, td {
+            padding: 15px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Users</h1>
+        <table > 
+            <tr>
+                <th>FirstName</th>
+                <th>LastName</th>
+                <th>Age</th>
+                <th>Email</th>
+            </tr>
+            <% @user.all.each do |item| %>
+                <tr>
+                    <td><%= item[1]%> </td> 
+                    <td><%= item[2]%> </td>
+                    <td><%= item[3]%> </td>
+                    <td><%= item[5]%> </td>
+                </tr>
+            <% end %>
+        </table>
+    </body>
+</html>
